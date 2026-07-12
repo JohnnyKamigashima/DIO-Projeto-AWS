@@ -36,7 +36,7 @@ A implementação de ferramentas na empresa *Abstergo Industries tem como espera
 
 ## Anexos
 
-![Diagrama de arquitetura da migração](migracao-01.png)
+![Diagrama de arquitetura da migração](anexos/migracao-01.png)
 
 *Diagrama de arquitetura da migração: usuários acessam a aplicação via Internet Gateway e Elastic Load Balancing, que distribui o tráfego entre instâncias EC2 gerenciadas por um Auto Scaling Group em múltiplas zonas de disponibilidade.* 
 
