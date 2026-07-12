@@ -43,10 +43,11 @@ A implementação de ferramentas na empresa *Abstergo Industries tem como espera
 *Eventos e chamadas de API acionam funções AWS Lambda para processamento sem servidor. Tanto as instâncias EC2 quanto as funções Lambda gravam dados no Amazon S3, cuja política de ciclo de vida move automaticamente dados pouco acessados para as camadas Intelligent-Tiering e Glacier, reduzindo custo de armazenamento.*
 
 
-Planilha de estimativa de custos: [[anexos/estimativa_custos_aws.xlsx]]
+Versão editável do diagrama (Excalidraw): [diagrama_arquitetura_migracao.excalidraw](anexos/diagrama_arquitetura_migracao.excalidraw)
 
+Planilha de estimativa de custos: [estimativa_custos_aws.xlsx](anexos/estimativa_custos_aws.xlsx)
 
-Política de ciclo de vida de dados no S3: [[/anexos/politica_ciclo_vida_s3]]
+Política de ciclo de vida de dados no S3: [politica_ciclo_vida_s3.md](anexos/politica_ciclo_vida_s3.md)
 
 Assinatura do Responsável pelo Projeto:
 
