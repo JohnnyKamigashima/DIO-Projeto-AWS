@@ -36,14 +36,13 @@ A implementação de ferramentas na empresa *Abstergo Industries tem como espera
 
 ## Anexos
 
-![Diagrama de arquitetura da migração](anexos/migracao-01.png)
+Diagrama de arquitetura da migração
 
 *Diagrama de arquitetura da migração: usuários acessam a aplicação via Internet Gateway e Elastic Load Balancing, que distribui o tráfego entre instâncias EC2 gerenciadas por um Auto Scaling Group em múltiplas zonas de disponibilidade.* 
 
 *Eventos e chamadas de API acionam funções AWS Lambda para processamento sem servidor. Tanto as instâncias EC2 quanto as funções Lambda gravam dados no Amazon S3, cuja política de ciclo de vida move automaticamente dados pouco acessados para as camadas Intelligent-Tiering e Glacier, reduzindo custo de armazenamento.*
 
 
-Versão editável do diagrama (Excalidraw): [diagrama_arquitetura_migracao.excalidraw](anexos/diagrama_arquitetura_migracao.excalidraw)
 
 Planilha de estimativa de custos: [estimativa_custos_aws.xlsx](anexos/estimativa_custos_aws.xlsx)
 
